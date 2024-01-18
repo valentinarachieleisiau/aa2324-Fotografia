@@ -3,11 +3,28 @@
       `cursor: url('https://valentinarachiele.altervista.org/wp-content/uploads/2024/01/donut.png'), auto;`  
 `}`  
 
+`/*tutti i link del sito*/`
+`a {`  
+      `cursor: url('https://valentinarachiele.altervista.org/wp-content/uploads/2024/01/donut.png'), auto;`  
+`}` 
+
+`/*tutte le immagini del sito*/`
+`img {`  
+      `cursor: url('https://valentinarachiele.altervista.org/wp-content/uploads/2024/01/donut.png'), auto;`  
+`}` 
+
 ---
 ## CSS-Per modificare il cursore quando si è su un elemento preciso
 `/*modificare ".et_pb_image_wrap" col nome dell'elemento desiderato*/`  
 `.et_pb_image_wrap {`  
       `cursor: url('https://valentinarachiele.altervista.org/wp-content/uploads/2024/01/donut.png'), auto;`  
+`}`  
+
+---
+## CSS-Per nascondere il cursore quando si è su un elemento preciso
+`/*modificare ".et_pb_image_wrap" col nome dell'elemento desiderato*/`  
+`.et_pb_image_wrap {`  
+      `cursor:none;`  
 `}`  
 
 ---
