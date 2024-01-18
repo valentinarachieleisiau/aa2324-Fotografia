@@ -241,11 +241,13 @@
 
 ---
 ## CSS-Hover image to show text
-`/*".donzellettaimg" e ".calarimg" sono i moduli che contengono le immagini; ".donzelletta" e ".calar" sono i moduli del testo*/`  
-`.donzellettaimg:hover + .donzelletta, .calarimg:hover + .calar {`  
-    `display: block;`  
-`}`  
-`.donzelletta, .calar {`  
-    `position: absolute;`  
-    `top: 50%;`  
+`.immagine:hover + .titolo {`
+    `display: block;`
 `}`
+
+`.titolo {`
+	`position: absolute;`
+	`top: 100px;`
+	`left: 60px;`
+`}`
+
