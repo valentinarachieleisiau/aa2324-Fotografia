@@ -223,15 +223,20 @@
 
 ---
 ##  CSS-Hover text to show image
-`/*".donzelletta" e ".calar" sono i moduli che contengono headings; ".donzellettaimg" e ".calarimg" sono i moduli delle immagini*/`  
-`.donzelletta:hover + .donzellettaimg, .calar:hover + .calarimg {`  
-    `display: block;`  
-`}`  
-`.donzellettaimg, .calarimg {`  
-    `position: absolute;`  
-    `right: 0;`  
-    `width: 50% !important;`  
-    `top: 0;`  
+`/*".titolo" è la classe che va data al testo; ".img" è la classe che va data alle immagini*/`  
+`.titolo:hover + .img {`
+    `display: block;`
+`}`
+
+`.titolo {`
+	`top: 100px;`
+`}`
+
+`.img {`
+	`position: absolute;`
+   ` right: 0;`
+  `  width: 50% !important;`
+    `top: 0;`
 `}`  
 
 ---
