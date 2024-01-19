@@ -13,6 +13,11 @@
       `cursor: url('https://valentinarachiele.altervista.org/wp-content/uploads/2024/01/donut.png'), auto;`  
 `}` 
 
+`/*aggiungendo :active all'elemento su cui si vuole che cambi il cursore, il cursore cambierà solo quando si fa click*/` 
+`figure.immaginecursore:active {`
+	`cursor: url('https://valentinarachiele.altervista.org/wp-content/uploads/2024/01/donut.png'), auto;`
+`}`
+
 ---
 ## CSS-Per modificare il cursore quando si è su un elemento preciso
 `/*modificare ".et_pb_image_wrap" col nome dell'elemento desiderato*/`  
