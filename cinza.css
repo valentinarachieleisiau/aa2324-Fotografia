@@ -1,0 +1,24 @@
+.flickity-button.previous, .flickity-button.next {
+	width: 50%;
+	background-color: transparent;
+	height: 100%;
+}
+
+.flickity-button.previous {
+	left: 0 !important;
+}
+
+.flickity-button.next {
+	right: 0 !important;
+}
+
+.flickity-button.previous svg, .flickity-button.next svg {
+	display: none;
+}
+
+.flickity-button.previous {
+  cursor: url("https://valentinarachiele.altervista.org/wp-content/uploads/2024/01/left-e1705220241430.png"), move !important;
+}
+.flickity-button.next {
+  cursor: url("https://valentinarachiele.altervista.org/wp-content/uploads/2024/01/right-e1705220225464.png"), move !important;
+}
