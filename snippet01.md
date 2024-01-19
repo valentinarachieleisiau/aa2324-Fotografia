@@ -258,8 +258,10 @@
 
 ---
 ## Per nascondere header e footer di Divi
+
 `header#main-header, footer#main-footer {`
 	`display: none;`
 `}`
+
 ---
 
