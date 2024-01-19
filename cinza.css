@@ -22,3 +22,7 @@
 .flickity-button.next {
   cursor: url("https://valentinarachiele.altervista.org/wp-content/uploads/2024/01/right-e1705220225464.png"), move !important;
 }
+.flickity-button:focus {
+    outline: 0;
+    box-shadow: none;
+}
